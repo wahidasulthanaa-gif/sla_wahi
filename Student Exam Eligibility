@@ -1,0 +1,7 @@
+attendance = int(input("Enter attendance percentage: "))
+marks = int(input("Enter internal marks: "))
+
+if attendance >= 75 and marks >= 40:
+    print("Eligible for examination")
+else:
+    print("Not eligible for examination")
