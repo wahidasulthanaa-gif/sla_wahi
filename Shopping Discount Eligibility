@@ -1,0 +1,6 @@
+amount = int(input("Enter total shopping amount: "))
+member = input("Are you a member? (yes/no): ")
+if amount >= 2000 and member=="yes":
+    print("Eligible for 20% discount")
+else:
+    print("Not eligible for discount")
