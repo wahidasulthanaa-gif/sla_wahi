@@ -1,0 +1,39 @@
+marks = []
+
+for i in range(5):
+    mark = int(input("Enter marks: "))
+    marks.append(mark)
+
+print("All Marks:", marks)
+
+marks.append(85)
+print("After adding:", marks)
+
+marks.insert(1, 67)
+print("After inserting:", marks)
+
+marks.remove(67)
+print("After removing:", marks)
+
+print("Highest:", max(marks))
+print("Lowest:", min(marks))
+
+print("Total:", sum(marks))
+print("Average:", sum(marks) / len(marks))
+
+marks.sort()
+print("Ascending order:", marks)
+
+count = 0
+
+for mark in marks:
+    if mark > 75:
+        count += 1
+
+print("Above 75:", count)
+
+print("Marks 50 and above:")
+
+for mark in marks:
+    if mark >= 50:
+        print(mark)
