@@ -1,0 +1,26 @@
+food_items = ("Pizza", "Burger", "Sandwich", "Pasta", "Juice")
+
+print("All Food Items:", food_items)
+
+print("First Food:", food_items[0])
+
+print("Last Food:", food_items[-1])
+
+print("First 3 Food Items:", food_items[:3])
+
+print("Is Pizza Available?", "Pizza" in food_items)
+
+print("Pizza Count:", food_items.count("Pizza"))
+
+print("Position of Pasta:", food_items.index("Pasta"))
+
+new_items = ("Ice Cream", "French Fries")
+
+updated_order = food_items + new_items
+print("Updated Food Order:", updated_order)
+
+print("Repeat Food Order Twice:", food_items * 2)
+
+print("Your Food Order:")
+for item in food_items:
+    print(item)
