@@ -1,0 +1,25 @@
+numbers = set()
+
+for i in range(10):
+    num = int(input("Enter a number: "))
+    numbers.add(num)
+
+print("Numbers:", numbers)
+
+numbers.add(100)
+print("After Adding:", numbers)
+
+numbers.discard(10)
+print("After Removing:", numbers)
+
+print("Check Number:", 20 in numbers)
+
+set2 = {10, 20, 30, 40, 50}
+
+print("Union:", numbers | set2)
+
+print("Intersection:", numbers & set2)
+
+print("Difference:", numbers - set2)
+
+print("Total Numbers:", len(numbers))
