@@ -1,0 +1,16 @@
+salaries = (20000, 25000, 50000, 75000, 20000)
+
+print("First Salary:", salaries[0])
+print("Last Salary:", salaries[-1])
+
+print("Maximum Salary:", max(salaries))
+print("Minimum Salary:", min(salaries))
+
+print("Salary Count:", salaries.count(20000))
+
+salary_list = list(salaries)
+salary_list.append(35000)
+
+salaries = tuple(salary_list)
+
+print("Updated Salaries:", salaries)
