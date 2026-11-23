@@ -1,0 +1,13 @@
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+
+print("Unique numbers:", set1.union(set2))
+
+print("Common numbers:", set1.intersection(set2))
+
+print("First set number only:", set1.difference(set2))
+
+set1.add(80)
+set1.remove(10)
+
+print("Updated Set:", set1)
