@@ -1,0 +1,15 @@
+mobiles = {
+    "Samsung": 50000,
+    "Apple": 120000,
+    "Vivo": 15000,
+    "Oppo": 18000,
+    "Realme": 12000
+}
+
+print("Mobile Details:", mobiles)
+
+mobiles["OnePlus"] = 30000
+
+mobiles["Samsung"] = 22000
+
+print("Updated Mobiles:", mobiles)
