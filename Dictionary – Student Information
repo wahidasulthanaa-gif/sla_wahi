@@ -1,0 +1,25 @@
+student = {
+    "id": 7887,
+    "name": "Wahida",
+    "age": 25,
+    "course": "Python"
+}
+
+print("Student Details:", student)
+
+print("Keys:", student.keys())
+
+print("Values:", student.values())
+
+student["email"] = "wahi@gmail.com"
+
+student["age"] = 29
+
+student.pop("course")
+
+if "name" in student:
+    print("Name key exists")
+else:
+    print("Name key not found")
+
+print("Updated Details:", student)
