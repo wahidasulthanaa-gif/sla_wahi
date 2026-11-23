@@ -1,0 +1,17 @@
+items = ["Exobar", "Vim", "Scrub", "Lizol", "Milk"] 
+print("Items are : ", items)
+items.append("Curd")
+print("Added items are : ", items)
+remove_item = input("Enter item to remove: ")
+if remove_item in items:
+    items.remove(remove_item)
+else:
+    print("Item not found")
+
+check_item = input("Enter item to check: ")
+if check_item in items:
+    print("Item is available")
+else:
+    print("Item is not available")
+print("Current Items are : ", items)
+print("total number of items: ", len(items))
