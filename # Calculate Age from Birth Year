@@ -1,0 +1,6 @@
+Birth_year = 1992
+Current_year = 2026
+
+Age = Current_year - Birth_year
+
+print(f"Your age is : {Age}")
