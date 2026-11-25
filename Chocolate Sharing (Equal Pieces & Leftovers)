@@ -1,0 +1,5 @@
+Total_chocolates = 10
+Persons = 5
+
+Share = Total_chocolates / Persons
+print(f"Each Person shares: {Share} choclates")
