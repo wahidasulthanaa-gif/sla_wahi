@@ -1,0 +1,10 @@
+# Fuel Cost Calculator for a Trip
+# Uses / and *.
+Distance = 400
+Petrol_perkg = 102
+Mileage_perkm = 20
+Perkm_cost = Distance / Mileage_perkm 
+Total_cost = Perkm_cost * Petrol_perkg 
+
+print("Per kilometer cost:", Perkm_cost)
+print("Total cost:", Total_cost)
