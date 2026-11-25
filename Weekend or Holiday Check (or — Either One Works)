@@ -1,0 +1,6 @@
+day = "Sunday"
+
+if day == "Saturday" or day == "Sunday":
+  print("It's the weekend! Relax.")
+else:
+  print("It's a working day.")
