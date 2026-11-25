@@ -1,0 +1,11 @@
+Used_units = int(input("Enter your Units: "))
+
+if Used_units <=100:
+  bill = 0
+elif Used_units <= 200:
+  bill = (Used_units - 100) * 5
+else:
+  bill = (Used_units-200) * 7
+
+print(f"Units consumed: {Used_units}")
+print(f"Total Electricity Bill: ₹{bill}")
