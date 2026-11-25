@@ -1,0 +1,9 @@
+math = 80
+science = 78
+english = 82
+max_marks = 300
+
+total = math + science + english
+percentage = (total / max_marks) * 100
+
+print(f"Total: {total}/300, Percentage: {percentage}%")
