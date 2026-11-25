@@ -1,0 +1,4 @@
+star = "*"
+
+for i in range(10):
+ print(star * i)
