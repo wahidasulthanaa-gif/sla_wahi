@@ -1,0 +1,7 @@
+total_mb = 2500
+Used_data = int(input("Enter your used data"))
+Remaining = total_mb - Used_data
+
+print("Total MB: ", total_mb)
+print("Used Data: ", Used_data)
+print("Remaining Data: ", Remaining)
