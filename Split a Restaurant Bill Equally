@@ -1,0 +1,9 @@
+# Uses + and /.
+
+food_bill = 1000
+tip = 50
+friends = 3
+
+per_person = (food_bill - tip) /friends
+print("Each Pays:", per_person)
+#print(f"Each person pays: ₹{per_person}")
