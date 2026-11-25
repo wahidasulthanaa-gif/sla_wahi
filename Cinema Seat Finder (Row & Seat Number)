@@ -1,0 +1,7 @@
+ticket = int(input("Enter your ticket"))
+
+row = ticket // 10  # Gives the first digit: 2 
+seat = ticket % 10  # Gives the last digit: 4
+
+print("Row:", row)
+print("Seat:", seat)
