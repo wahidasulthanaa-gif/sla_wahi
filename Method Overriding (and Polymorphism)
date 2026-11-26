@@ -1,0 +1,18 @@
+class Payment:
+    def Payment_Process(self):
+        print("Payment processing")
+
+class Netbanking(Payment):
+    def Payment_Process(self):
+        print("Payment processing by Netbanking")
+
+class UPIpayment(Payment):
+    def Payment_Process(self):
+        print("UPI payment processing")
+
+class CardPayment(Payment):
+    def Payment_Process(self):
+        print("Card payment processing")
+
+card = CardPayment()
+card.Payment_Process()
