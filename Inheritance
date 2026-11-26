@@ -1,0 +1,37 @@
+class vehicle:
+  def __init__(self, brand, model):
+   self.brand = brand
+   self.model = model
+
+  def vehicle_details(self):
+   print("Brand name is: ", self.brand)
+   print("Model name is: ", self.model)
+
+class car(vehicle):
+  def __init__(self, brand, model, fuel, seats):
+    super().__init__(brand, model)
+    self.fuel = fuel
+    self.seats = seats
+
+  def car_details(self):
+    print("Fuel Type: ", self.fuel)
+    print("Number of seats: ", self.seats)
+
+class bike(vehicle):
+  def __init__(self, brand, model, engine_capacity, mileage):
+   super().__init__(brand, model)
+   self.engine_capacity = engine_capacity
+   self. mileage = mileage
+
+  def bike_details(self):
+    print("Engine Capacity: ", self.engine_capacity)
+    print("Mileage: ", self.mileage)
+
+objec1 = car("Toyota", "Innova", "Diesel", "7")
+objec1.car_details()
+objec1.vehicle_details()
+
+objec2 = bike("Toyota", "Innova", "24", "25")
+objec2.bike_details()
+objec1.vehicle_details()
+   
