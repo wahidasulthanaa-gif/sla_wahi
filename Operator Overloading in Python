@@ -1,0 +1,24 @@
+class Cart:
+    def __init__(self, price):
+        self.Productprice = price
+
+    def __add__(self, other):
+        self.Productprice = self.Productprice + other.Productprice
+        return self.Productprice
+
+    def __sub__(self, other):
+        self.Productprice = self.Productprice - other.Productprice
+        return self.Productprice
+
+    def __mul__(self, other):
+        self.Productprice = self.Productprice * other.Productprice
+        return self.Productprice
+
+    def __truediv__(self, other):
+        self.Productprice = self.Productprice / other.Productprice
+        return self.Productprice
+
+
+product1 = Cart(40000)
+product2 = Cart(10000)
+print(product1 + product2)
